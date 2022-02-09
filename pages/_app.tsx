@@ -25,7 +25,11 @@ import '@ionic/react/css/display.css';
 function App({ Component, pageProps }: AppProps) {
 	document.documentElement.classList.add('ion-ce');
 
-	return <Component {...pageProps} />;
+	return (
+		<IonApp>
+			<Component {...pageProps} />
+		</IonApp>
+	);
 }
 
 export default dynamic(() => Promise.resolve(App), {
