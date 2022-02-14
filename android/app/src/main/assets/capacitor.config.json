@@ -1,0 +1,6 @@
+{
+	"appId": "uk.org.rcn.appdemo",
+	"appName": "app-demo",
+	"bundledWebRuntime": false,
+	"webDir": "out"
+}
