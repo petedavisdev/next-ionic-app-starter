@@ -8,6 +8,7 @@ const withTranspileModules = require('next-transpile-modules')([
 /** @type {import('next').NextConfig} */
 const nextConfig = withTranspileModules({
 	reactStrictMode: true,
+	swcMinify: false,
 });
 
 module.exports = nextConfig;
