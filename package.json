@@ -2,10 +2,11 @@
 	"name": "app-demo",
 	"private": true,
 	"scripts": {
-		"build": "next build && next export && npx cap sync",
+		"build": "next build && next export",
 		"dev": "next dev",
 		"format": "prettier --write . --ignore-path ./.gitignore",
 		"lint": "next lint",
+		"sync": "npx cap sync",
 		"types": "tsc --pretty --noEmit"
 	},
 	"dependencies": {
