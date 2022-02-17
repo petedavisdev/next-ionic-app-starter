@@ -34,8 +34,9 @@ When you try to commit, some pre-commit scripts will run to check the formatting
 
 If any of these checks fail, the commit will fail and you will need to fix what you broke then commit again.
 
-## Learn More
+## Next/Ionic problems
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+1. Ionic framework components cannot be server-side rendered. See [\_app.tsx Line 36](./pages/_app.tsx)
+2. Transpile Modules have been added to enable ionic to be compiled. See [next.config.js](./next.config.js)
+3. SWC Minify does not work on Ionic Appflow build. It has been disabled in [next.config.js](./next.config.js) and [.babelrc] added [as described in the Next docs](https://nextjs.org/docs/messages/failed-loading-swc)
+4. Even with these workarounds, ionic components do not hydrate
