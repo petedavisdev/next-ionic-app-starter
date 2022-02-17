@@ -38,5 +38,5 @@ If any of these checks fail, the commit will fail and you will need to fix what 
 
 1. Ionic framework components cannot be server-side rendered. See [\_app.tsx Line 36](./pages/_app.tsx)
 2. Transpile Modules have been added to enable ionic to be compiled. See [next.config.js](./next.config.js)
-3. SWC Minify does not work on Ionic Appflow build. It has been disabled in [next.config.js](./next.config.js) and [.babelrc] added [as described in the Next docs](https://nextjs.org/docs/messages/failed-loading-swc)
+3. SWC Minify does not work on Ionic Appflow build. To enable the build, [.babelrc] has been added [as described in the Next docs](https://nextjs.org/docs/messages/failed-loading-swc)
 4. Even with these workarounds, ionic components do not hydrate
