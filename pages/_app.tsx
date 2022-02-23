@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 import type { AppProps } from 'next/app';
 
 /* Components */
-import { IonApp } from '@ionic/react';
+import { IonApp, setupIonicReact } from '@ionic/react';
 
 /* Styles */
 import '../styles/globals.css';
@@ -22,9 +22,9 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
-function App({ Component, pageProps }: AppProps) {
-	document.documentElement.classList.add('ion-ce');
+setupIonicReact();
 
+function App({ Component, pageProps }: AppProps) {
 	return (
 		<IonApp>
 			<Component {...pageProps} />
