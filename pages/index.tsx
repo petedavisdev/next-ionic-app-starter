@@ -8,10 +8,15 @@ import {
 } from '@ionic/react';
 
 import type { NextPage } from 'next';
+import Link from 'next/link';
 
-const Home: NextPage = () => {
+const Index: NextPage = () => {
 	return (
 		<IonContent>
+			<Link href="login">Log out</Link>
+
+			<h1>Home</h1>
+
 			<IonCard>
 				<IonCardHeader>
 					<IonCardSubtitle>Nursing essentials</IonCardSubtitle>
@@ -29,4 +34,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default Index;
