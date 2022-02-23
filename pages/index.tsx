@@ -19,8 +19,8 @@ const Index: NextPage = () => {
 
 			<IonCard>
 				<IonCardHeader>
-					<IonCardSubtitle>Nursing essentials</IonCardSubtitle>
-					<IonCardTitle>Crib cards</IonCardTitle>
+					<IonCardSubtitle>Lorem ipsum</IonCardSubtitle>
+					<IonCardTitle>Ion Card</IonCardTitle>
 				</IonCardHeader>
 
 				<IonCardContent>
