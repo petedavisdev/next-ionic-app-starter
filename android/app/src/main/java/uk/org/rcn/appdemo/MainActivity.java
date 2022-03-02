@@ -1,4 +1,4 @@
-package uk.org.rcn.appdemo;
+package uk.org.rcn.app;
 
 import com.getcapacitor.BridgeActivity;
 

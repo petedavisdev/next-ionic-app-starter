@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-	appId: 'uk.org.rcn.appdemo',
-	appName: 'app-demo',
+	appId: 'uk.org.rcn.app',
+	appName: 'app',
 	bundledWebRuntime: false,
 	webDir: 'out',
 };

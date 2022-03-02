@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">app-demo</string>
-    <string name="title_activity_main">app-demo</string>
-    <string name="package_name">uk.org.rcn.appdemo</string>
-    <string name="custom_url_scheme">uk.org.rcn.appdemo</string>
+    <string name="app_name">app</string>
+    <string name="title_activity_main">app</string>
+    <string name="package_name">uk.org.rcn.app</string>
+    <string name="custom_url_scheme">uk.org.rcn.app</string>
 </resources>
