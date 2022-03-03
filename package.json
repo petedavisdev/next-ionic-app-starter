@@ -9,6 +9,7 @@
 		"build": "next build && next export",
 		"dev": "next dev",
 		"format": "prettier --write . --ignore-path ./.gitignore",
+		"ionic:build": "npm run build",
 		"lint": "next lint",
 		"sync": "npx cap sync",
 		"types": "tsc --pretty --noEmit"
@@ -38,7 +39,6 @@
 		"eslint-config-prettier": "^8.4.0",
 		"husky": "^7.0.4",
 		"prettier": "^2.5.1",
-		"react-scripts": "5.0.0",
 		"typescript": "^4.6.2"
 	}
 }
