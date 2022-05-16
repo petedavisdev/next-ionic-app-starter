@@ -1,4 +1,4 @@
-# Next.js / Ionic / Capacitor / TypeScript app starter
+# Next.js + Ionic + Capacitor app starter
 
 Starter for making native apps with Next.js
 
